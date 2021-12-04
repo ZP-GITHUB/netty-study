@@ -23,6 +23,7 @@
     <modules>
         <module>zp-netty-study-01</module>
         <module>zp-netty-study-02</module>
+        <module>zp-netty-study-03</module>
     </modules>
 
     <dependencies>
