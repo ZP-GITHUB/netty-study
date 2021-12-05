@@ -29,6 +29,7 @@
         <module>zp-netty-study-06</module>
         <module>zp-netty-study-07</module>
         <module>zp-netty-study-08</module>
+        <module>zp-netty-study-09</module>
     </modules>
 
     <dependencies>
