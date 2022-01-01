@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/
+      suffix: .jsp
+  redis:
+    host: 192.168.1.100
+    port: 6379
+    password: 991475623@qq.com
