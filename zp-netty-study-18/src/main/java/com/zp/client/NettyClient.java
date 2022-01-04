@@ -1,5 +1,6 @@
 package com.zp.client;
 
+import com.zp.util.MsgUtil;
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelOption;

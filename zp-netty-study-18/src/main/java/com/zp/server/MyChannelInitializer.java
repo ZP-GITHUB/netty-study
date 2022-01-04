@@ -3,6 +3,8 @@ package com.zp.server;
 import com.zp.codec.ObjDecoder;
 import com.zp.codec.ObjEncoder;
 import com.zp.server.handler.MsgDemo01Handler;
+import com.zp.server.handler.MsgDemo02Handler;
+import com.zp.server.handler.MsgDemo03Handler;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.SocketChannel;
 

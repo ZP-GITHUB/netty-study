@@ -1,9 +1,9 @@
 package com.zp.client;
 
+import com.zp.codec.ObjDecoder;
+import com.zp.codec.ObjEncoder;
 import io.netty.channel.ChannelInitializer;
 import io.netty.channel.socket.SocketChannel;
-import org.itstack.demo.netty.codec.ObjDecoder;
-import org.itstack.demo.netty.codec.ObjEncoder;
 
 /**
  * 虫洞栈：https://bugstack.cn

@@ -1,5 +1,9 @@
 package com.zp.domain.protocol;
 
+import com.zp.domain.MsgDemo01;
+import com.zp.domain.MsgDemo02;
+import com.zp.domain.MsgDemo03;
+
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
