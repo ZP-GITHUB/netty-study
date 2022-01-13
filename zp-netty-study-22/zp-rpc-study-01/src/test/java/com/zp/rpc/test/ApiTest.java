@@ -5,6 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * @author ZP
  * @date 2022/1/12.
+ * 如何读取自定义配置xml文件字段信息
  */
 public class ApiTest {
 
