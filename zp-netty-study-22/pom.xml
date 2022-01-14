@@ -13,6 +13,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>zp-rpc-study-01</module>
+        <module>zp-rpc-study-02</module>
     </modules>
 
     <properties>
