@@ -3,6 +3,7 @@ package com.zp.rpc.network.msg;
 /**
  * @author ZP
  * @date 2022/1/15.
+ * 接收返回的结果
  */
 public class Response {
 

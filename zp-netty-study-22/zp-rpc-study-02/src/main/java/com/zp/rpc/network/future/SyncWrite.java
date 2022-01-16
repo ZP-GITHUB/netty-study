@@ -16,6 +16,14 @@ import java.util.concurrent.TimeoutException;
  */
 public class SyncWrite {
 
+    /**
+     * 发送请求
+     * @param channel
+     * @param request
+     * @param timeout
+     * @return
+     * @throws Exception
+     */
     public Response writeAndSync(final Channel channel, final Request request, final long timeout) throws Exception {
 
         if (channel == null) {
@@ -40,9 +48,19 @@ public class SyncWrite {
         return response;
     }
 
+    /**
+     * 通过netty发送请求
+     * @param channel
+     * @param request
+     * @param timeout
+     * @param writeFuture
+     * @return
+     * @throws Exception
+     */
     private Response doWriteAndSync(final Channel channel, final Request request, final long timeout, final WriteFuture<Response> writeFuture) throws Exception {
 
         channel.writeAndFlush(request).addListener(new ChannelFutureListener() {
+            @Override
             public void operationComplete(ChannelFuture future) throws Exception {
                 writeFuture.setWriteResult(future.isSuccess());
                 writeFuture.setCause(future.cause());
@@ -52,7 +70,7 @@ public class SyncWrite {
                 }
             }
         });
-
+        /**设置超时时间*/
         Response response = writeFuture.get(timeout, TimeUnit.MILLISECONDS);
         if (response == null) {
             if (writeFuture.isTimeout()) {

@@ -3,6 +3,7 @@ package com.zp.rpc.network.msg;
 /**
  * @author ZP
  * @date 2022/1/15.
+ * 请求体
  */
 public class Request {
 
