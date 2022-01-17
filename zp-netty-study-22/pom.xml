@@ -14,6 +14,7 @@
     <modules>
         <module>zp-rpc-study-01</module>
         <module>zp-rpc-study-02</module>
+        <module>zp-rpc-study-03</module>
     </modules>
 
     <properties>
