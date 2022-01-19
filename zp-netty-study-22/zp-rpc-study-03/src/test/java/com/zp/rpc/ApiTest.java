@@ -1,5 +1,7 @@
 package com.zp.rpc;
 
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
 /**
  * @author ZP
  * @date 2022/1/18.

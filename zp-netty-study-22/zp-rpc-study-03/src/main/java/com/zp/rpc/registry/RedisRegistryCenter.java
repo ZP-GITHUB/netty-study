@@ -1,5 +1,9 @@
 package com.zp.rpc.registry;
 
+import redis.clients.jedis.Jedis;
+import redis.clients.jedis.JedisPool;
+import redis.clients.jedis.JedisPoolConfig;
+
 /**
  * @author ZP
  * @date 2022/1/18.
