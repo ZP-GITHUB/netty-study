@@ -14,6 +14,7 @@ import org.springframework.context.ApplicationContextAware;
 /**
  * @author ZP
  * @date 2022/1/17.
+ * 生产者包装类
  */
 public class ProviderBean extends ProviderConfig implements ApplicationContextAware {
 

@@ -15,6 +15,7 @@ import org.springframework.util.Assert;
 /**
  * @author ZP
  * @date 2022/1/17.
+ * 消费者包装类
  */
 public class ConsumerBean<T> extends ConsumerConfig<T> implements FactoryBean {
 

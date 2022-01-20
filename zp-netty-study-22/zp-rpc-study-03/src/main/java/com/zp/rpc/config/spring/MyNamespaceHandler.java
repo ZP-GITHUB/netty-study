@@ -8,6 +8,7 @@ import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 /**
  * http://www.itstack.org
  * create by fuzhengwei on 2019/5/6
+ * 入口
  */
 public class MyNamespaceHandler extends NamespaceHandlerSupport {
 

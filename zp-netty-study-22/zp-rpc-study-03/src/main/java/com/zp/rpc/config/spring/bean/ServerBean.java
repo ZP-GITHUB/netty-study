@@ -13,6 +13,7 @@ import org.springframework.context.ApplicationContextAware;
 /**
  * @author ZP
  * @date 2022/1/18.
+ * 启动注册中心
  */
 public class ServerBean extends ServerConfig implements ApplicationContextAware {
 
