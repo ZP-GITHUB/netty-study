@@ -1,11 +1,11 @@
 package com.zp.ark.util;
 
+import com.zp.ark.domain.Device;
+import com.zp.ark.domain.ServerInfo;
 import io.netty.channel.Channel;
 import io.netty.channel.group.ChannelGroup;
 import io.netty.channel.group.DefaultChannelGroup;
 import io.netty.util.concurrent.GlobalEventExecutor;
-import org.itstack.demo.ark.domain.Device;
-import org.itstack.demo.ark.domain.ServerInfo;
 
 import java.util.Collections;
 import java.util.HashMap;

@@ -1,13 +1,19 @@
 package com.zp.ark.server.socket;
 
 import com.zp.ark.domain.Device;
+import com.zp.ark.util.CacheUtil;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
 import io.netty.channel.socket.SocketChannel;
+import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.UUID;
-import java.util.logging.Logger;
+
+import static com.zp.ark.util.CacheUtil.deviceGroup;
 
 /**
  * @author ZP
